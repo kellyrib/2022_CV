@@ -390,7 +390,7 @@ li
     {
         display: flex;
         flex-direction: column;
-        padding-top: 30%;
+        padding-top: 170%;
     }
     h3
     {
@@ -408,7 +408,21 @@ li
     {
         position: absolute;
         top: 0.5%;
-        left: -1%;
+        left: -5%;
+    }
+    #bas
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        padding: 2%;
+        box-shadow: white 5px 5px 15px 5px ;
+    }
+    #hautcentre p
+    {
+        position: absolute;
+        top: 3%;
+        left: -5%;
     }
 
 
