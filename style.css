@@ -345,3 +345,53 @@ li
     align-content: center;
     margin-top: 40px;
 }
+@media only screen and (max-width: 480px)
+{
+  body
+  {
+    background-color: #6f2b74;
+  }
+  #haut
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        padding: 2%;
+        box-shadow: white 5px 5px 15px 5px ;
+    }
+    #hautgauche, #hautcentre, #hautdroit
+    {
+        width: 33%;
+    }
+    #cote
+{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-right: 3%;
+    width: 100px;
+    height: 150px;
+    box-shadow: none;
+    margin-left: -6%;
+    position: fixed;
+    top: 27%;
+    left: 0%;
+}
+#cote a
+{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50% ;
+    text-decoration: none;
+}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+  body
+  {
+    background-color: #00ff62;
+  }
+}
