@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'CocogoosePro';
+    src: url('./fonts/police_nom/CocogoosePro-Italic.eot');
+    src: url('./fonts/police_nom/CocogoosePro-Italic.eot') format('embedded-opentype'),
+        url('./fonts/police_nom/CocogoosePro-Italic.woff2') format('woff2'),
+        url('./fonts/police_nom/CocogoosePro-Italic.woff') format('woff'),
+        url('./fonts/police_nom/CocogoosePro-Italic.ttf') format('truetype'),
+        url('./fonts/police_nom/CocogoosePro-Italic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('./fonts/h2/CaviarDreams.eot');
+    src: url('./fonts/h2/CaviarDreams.eot') format('embedded-opentype'),
+        url('./fonts/h2/CaviarDreams.woff2') format('woff2'),
+        url('./fonts/h2/CaviarDreams.woff') format('woff'),
+        url('./fonts/h2/CaviarDreams.ttf') format('truetype'),
+        url('./fonts/h2/CaviarDreams.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ChampagneLimousines';
+    src: url('./fonts/h3/ChampagneLimousines.eot');
+    src: url('./fonts/h3/ChampagneLimousines.eot') format('embedded-opentype'),
+        url('./fonts/h3/ChampagneLimousines.woff2') format('woff2'),
+        url('./fonts/h3/ChampagneLimousines.woff') format('woff'),
+        url('./fonts/h3/ChampagneLimousines.ttf') format('truetype'),
+        url('./fonts/h3/ChampagneLimousines.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Philosopher';
+    src: url('./fonts/h4/Philosopher.eot');
+    src: url('./fonts/h4/Philosopher.eot') format('embedded-opentype'),
+        url('./fonts/h4/Philosopher.woff2') format('woff2'),
+        url('./fonts/h4/Philosopher.woff') format('woff'),
+        url('./fonts/h4/Philosopher.ttf') format('truetype'),
+        url('./fonts/h4/Philosopher.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body
+{
+    background-color: #0b171d;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+body p
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#page
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0.5%;
+}
+#corps
+{
+ width: 95%;
+ 
+
+}
+/*cote*/
+#cote
+{
+    display: flex;
+    flex-direction: column;
+    border: white 2px solid;
+    margin-right: 3%;
+    width: 100px;
+    height: 150px;
+    box-shadow: white 5px 5px 15px 5px ;
+    margin-left: 1%;
+    position: fixed;
+    top: 27%;
+    left: 0.5%;
+}
+#cote a
+{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18% ;
+    text-decoration: none;
+}
+
+
+/*title*/
+h1
+{
+    color: white;
+    text-align: center;
+    font-family: 'CocogoosePro';
+    font-size: 40px;
+}
+h2
+{
+    color: white;
+    text-align: center;
+    font-family: 'CaviarDreams';
+    font-size: 30px;
+}
+/*hautgauche*/
+p
+{
+    color: white;
+    text-align: justify;
+}
+.poste
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.date
+{
+    margin-right: 2%;
+    background-color: #39888f;
+
+}
+h3
+{
+    color: #39888f;
+    text-align: center;
+    font-family: 'ChampagneLimousines';
+    font-size: 30px;
+}
+h4
+{
+    color: #7A8284;
+    font-family: 'Philosopher';
+}
+#entreprise1
+{
+    display: flex;
+    flex-direction: column;
+}
+.details p
+{
+    margin-left: 20%;
+    margin-right: 17%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*haut*/
+#haut
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    padding: 2%;
+    box-shadow: white 5px 5px 15px 5px ;
+}
+#hautgauche, #hautcentre, #hautdroit
+{
+    width: 33%;
+}
+
+/*haut centre*/
+img
+{
+    width: 30%;
+    border-radius: 50% ;
+    background-color: white;
+    margin-left: 35%;
+}
+#hautcentre p
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/*hautdroite*/
+#coordonnees
+ {
+     display: flex;
+     flex-direction:column ;
+     border-bottom: white 2px solid;
+     margin-left: 20%;
+
+ }
+     
+#coordonnees i
+{ 
+    color: white;
+    margin-right: 5%;
+
+}
+#adresse
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+#mail a
+{
+    color: white;
+    text-decoration: none;
+}
+#mail 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4%;
+}
+#tel a
+{
+    color: white;
+    text-decoration: none;
+}
+#tel
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-bottom: 8%;
+}
+#reseau
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    justify-content: center;
+    
+}
+#reseau a
+{
+   
+    color: white;
+    margin-left: 20%;
+}
+a :hover
+{
+    color: #39888f;
+}
+.tel1 :hover
+{
+    color :#39888f;
+}
+.mail1 :hover
+{
+    color:#39888f;
+}
+
+/*centre*/
+
+
+/*bas*/
+#bas
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+    padding: 2%;
+    box-shadow: white 5px 5px 15px 5px ;
+}
+/*bas gauche*/
+#formation
+{
+    width: 33%;
+}
+/* bas centre*/
+#atouts
+{
+    width: 33%;
+}
+li
+{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    list-style-type :circle;
+    margin-top: 20%;
+    font-weight: bold;
+}
+
+/*basdroit*/
+#competences
+{
+    width: 33%;
+
+}
+#cercle
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.cercle1
+{
+    background:none;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    border-top: 10px solid #39888f;
+    border-left: 10px solid #39888f;
+    border-bottom: 10px solid #39888f;
+    border-right: 10px solid white;
+    margin-bottom: 10%;
+    
+}
+
+
+
+.cercle1 p
+{
+    text-align: center;
+    align-content: center;
+    margin-top: 40px;
+}
+.cercle2
+{
+    background:none;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    border-top: 10px solid #39888f;
+    border-left: 10px solid #39888f;
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    margin-bottom: 10%;
+    
+}
+.cercle2 p
+{
+    text-align: center;
+    align-content: center;
+    margin-top: 40px;
+}
