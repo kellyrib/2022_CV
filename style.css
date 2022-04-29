@@ -390,7 +390,7 @@ li
     {
         display: flex;
         flex-direction: column;
-        padding-top: 120%;
+        padding-top: 150%;
     }
     h3
     {
@@ -429,6 +429,8 @@ li
         position: absolute;
         top: 3%;
         left: -5%;
+        
+        
     }
     #coordonnees
     {
