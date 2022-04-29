@@ -141,7 +141,7 @@ h4
     color: #7A8284;
     font-family: 'Philosopher';
 }
-#entreprise1
+.entreprise1
 {
     display: flex;
     flex-direction: column;
@@ -390,18 +390,24 @@ li
     {
         display: flex;
         flex-direction: column;
-        padding-top: 170%;
+        padding-top: 120%;
     }
     h3
     {
         margin-left: 70%;
-        color: red;
+        
     }
-    #entreprise1
+    h4 
+    {
+        text-align: center;
+    }
+    .entreprise1
     {
         display: flex;
-        flex-direction: row;
-        border: 2px solid blue;
+        flex-direction: column;
+       
+        height:  190px;
+        width: 300px;
         
     }
     img
@@ -424,6 +430,34 @@ li
         top: 3%;
         left: -5%;
     }
+    #coordonnees
+    {
+        display: flex;
+        flex-direction:column ;
+        border-bottom: white 2px solid;
+        margin-left: 20%;
+        width: 250px;
+        margin-left: 30%;
+        
+
+    }
+    #reseau
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20%;
+        justify-content: center;
+        margin-bottom: 5%;
+        width: 250px;
+    }
+    #reseau a
+    {
+    
+        color: white;
+        
+    }
+        
+
 
 
 
