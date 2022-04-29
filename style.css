@@ -364,28 +364,54 @@ li
         width: 33%;
     }
     #cote
-{
-    display: flex;
-    flex-direction: column;
-    border: none;
-    margin-right: 3%;
-    width: 100px;
-    height: 150px;
-    box-shadow: none;
-    margin-left: -6%;
-    position: fixed;
-    top: 27%;
-    left: 0%;
-}
-#cote a
-{
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 50% ;
-    text-decoration: none;
-}
+    {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        margin-right: 3%;
+        width: 100px;
+        height: 150px;
+        box-shadow: none;
+        margin-left: -6%;
+        position: fixed;
+        top: 27%;
+        left: 0%;
+    }
+    #cote a
+    {
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50% ;
+        text-decoration: none;
+    }
+    #hautgauche
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30%;
+    }
+    h3
+    {
+        margin-left: 70%;
+        color: red;
+    }
+    #entreprise1
+    {
+        display: flex;
+        flex-direction: row;
+        border: 2px solid blue;
+        
+    }
+    img
+    {
+        position: absolute;
+        top: 0.5%;
+        left: -1%;
+    }
+
+
 
 }
 @media only screen and (min-width: 481px) and (max-width: 768px)
