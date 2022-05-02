@@ -390,7 +390,7 @@ li
     {
         display: flex;
         flex-direction: column;
-        padding-top: 150%;
+        padding-top: 170%;
     }
     h3
     {
@@ -407,7 +407,7 @@ li
         flex-direction: column;
        
         height:  190px;
-        width: 300px;
+        width: 290px;
         
     }
     img
@@ -458,7 +458,60 @@ li
         color: white;
         
     }
+    #bas
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        padding: 2%;
+        box-shadow: white 5px 5px 15px 5px ;
+        border: 2px solid yellow;
+    }
+    #formation
+    {
         
+        width: 280px;
+        border: 2px solid red;
+    }
+    #formation h3
+    {
+        margin-left: 10%;
+    } 
+    #atouts h3
+    {
+        margin-left: 100%;
+    } 
+    #test
+    {
+        display: flex;
+        flex-direction: row;
+
+
+    }
+    #cercle
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        width: 250px;
+    }
+    .cercle1
+    {
+        margin-left: 2%;
+    }
+    .cercle2
+    {
+        margin-top: -3%;
+    }
+    #atouts
+    {
+        border: 2px solid green;
+    }
+    #competences
+    {
+        border: 2px solid blue;
+    }
+    
 
 
 
