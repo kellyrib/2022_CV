@@ -465,13 +465,13 @@ li
         margin-bottom: 5%;
         padding: 2%;
         box-shadow: white 5px 5px 15px 5px ;
-        border: 2px solid yellow;
+       
     }
     #formation
     {
         
         width: 280px;
-        border: 2px solid red;
+        
     }
     #formation h3
     {
@@ -503,14 +503,7 @@ li
     {
         margin-top: -3%;
     }
-    #atouts
-    {
-        border: 2px solid green;
-    }
-    #competences
-    {
-        border: 2px solid blue;
-    }
+    
     
 
 
