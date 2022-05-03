@@ -511,6 +511,159 @@ li
 {
   body
   {
-    background-color: #00ff62;
+    background-color: pink;
+  }
+  #haut
+  {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5%;
+      padding: 2%;
+      box-shadow: white 5px 5px 15px 5px ;
+  }
+  
+  #cote
+  {
+      display: flex;
+      flex-direction: column;
+      border: none;
+      margin-right: 3%;
+      width: 100px;
+      height: 150px;
+      box-shadow: none;
+      margin-left: -3%;
+      position: fixed;
+      top: 27%;
+      left: 0%;
+  }
+  #cote a
+  {
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 50% ;
+      text-decoration: none;
+  }
+  #hautgauche
+  {
+      display: flex;
+      flex-direction: column;
+      padding-top: 80%;
+  }
+  h3
+  {
+      margin-left: 100%;
+      
+  }
+  h4 
+  {
+      text-align: center;
+  }
+  .entreprise1
+  {
+      display: flex;
+      flex-direction: column;
+      height:  190px;
+      width: 510px;
+      
+  }
+  img
+  {
+      position: absolute;
+      top: 0.5%;
+      left: -5%;
+  }
+  #bas
+  {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5%;
+      padding: 2%;
+      box-shadow: white 5px 5px 15px 5px ;
+  }
+  #hautcentre p
+  {
+      position: absolute;
+      top: 7%;
+      left: -5%;
+  }
+
+  #coordonnees
+  {
+      display: flex;
+      flex-direction:column ;
+      border-bottom: white 2px solid;
+      width: 510px;
+      margin-left: 10%;
+      
+  }
+  #reseau
+  {
+      display: flex;
+      flex-direction: row;
+      margin-top: 20%;
+      justify-content: space-between;
+      margin-left: 60%;
+      margin-bottom: 5%;
+      width: 250px;
+      
+  }
+  #reseau a
+  {
+  
+      color: white;
+      
+  }
+  #bas
+  {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5%;
+      padding: 2%;
+      box-shadow: white 5px 5px 15px 5px ;
+      border: 2px black solid;
+     
+  }
+  #formation
+  {
+      
+      width: 510px;
+      
+      
+  }
+  #formation h3
+  {
+      margin-left: 10%;
+  } 
+  #atouts h3
+  {
+      margin-left: 10%;
+  } 
+  #competences h3
+  {
+      margin-left: 10%;
+  }
+  
+
+
+  }
+  #cercle
+  {
+      display: flex;
+      flex-direction: column;
+      
+      width: 510px;
+      
+  }
+  touts
+  {
+   
+    width: 510px;
+  }
+  #competences
+  {
+    
+    width: 510px;
   }
 }
