@@ -530,15 +530,25 @@ li
     }
     #cote
   {
-      margin-right: 1%;
+
       width: 50px;
       height: 150px;
-
   }
     #cote a
   {
       margin-top: 100%
   }
+  
+  
+  .entreprise1
+  {
+      margin-top: 20%;
+  }
+  #cercle
+  {
+      margin-left: 20%;
+  }
+
 }
 @media only screen and (max-width: 960px)
 {
