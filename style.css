@@ -509,7 +509,7 @@ li
     }
     .cercle1
     {
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .cercle2
     {
@@ -524,15 +524,20 @@ li
 }
 @media only screen and (max-width: 1095px)
 {
+    body
+    {
+        background-color: pink;
+    }
     #cote
   {
       margin-right: 1%;
       width: 50px;
       height: 150px;
+
   }
     #cote a
   {
-      margin-top: 35%;
+      margin-top: 100%
   }
 }
 @media only screen and (max-width: 960px)
