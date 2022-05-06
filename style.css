@@ -355,9 +355,10 @@ li
 /*telephone*/
 @media (max-width: 480px)
 {
-    body
+   
+    .entreprise1
     {
-        background-color: red;
+         margin-top: 50px;
     }
   
   #haut
@@ -522,9 +523,7 @@ li
 /*tablette*/
 @media (min-width: 481px) and (max-width: 767px)
 {
-    body{ 
-        background-color: green;
-    }
+    
 
   
   #haut
