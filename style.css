@@ -126,9 +126,24 @@ p
 
 .date
 {
+    background-color: none;
     margin-right: 2%;
-    background-color: #39888f;
+    animation-name: glissement;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
+@keyframes glissement {
+
+    from{
+        background-color: none;
+        transform: scaleX(0);
+    }
+    to{
+        background-color: #39888f;
+        transform: scale(1);
+    }
+}
+
 h3
 {
     color: #39888f;
@@ -264,7 +279,20 @@ a :hover
     width: 70%;
    position: absolute;
     margin-left: 12%;
-    top: 27%;   
+    top: 27%; 
+    animation-name: apparition;  
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes apparition {
+    from
+    {
+        transform:scale(0);
+    }
+    to{
+        transform:scale(1)
+    }
+    
 }
 #centre
 {
@@ -320,11 +348,44 @@ li
     border-radius:50%;
     width:100px;
     height:100px;
-    border-top: 10px solid #39888f;
-    border-left: 10px solid #39888f;
-    border-bottom: 10px solid #39888f;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-bottom: 10px solid white;
     border-right: 10px solid white;
     margin-bottom: 10%;
+    animation-name: animcercle;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes animcercle {
+    0%{
+        border-top: 10px solid white;
+        border-left: 10px solid white;
+        border-bottom: 10px solid white;
+        border-right: 10px solid white;
+        transform: rotate(0deg);   
+    }
+    25%
+    {
+        border-top: 10px solid #39888f;  
+    }
+    50%
+    {
+        border-left: 10px solid #39888f;
+    }
+    75%
+    {
+        border-bottom: 10px solid #39888f;  
+    }
+    100%
+    {
+        border-top: 10px solid #39888f;
+        border-left: 10px solid #39888f;
+        border-bottom: 10px solid #39888f;
+        border-right: 10px solid white;
+        transform: rotate(-360deg);
+    }
     
 }
 .cercle1 p
@@ -344,6 +405,39 @@ li
     border-bottom: 10px solid white;
     border-right: 10px solid white;
     margin-bottom: 10%;
+    animation-name: animcercle2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes animcercle2 {
+    0%{
+        border-top: 10px solid white;
+        border-left: 10px solid white;
+        border-bottom: 10px solid white;
+        border-right: 10px solid white;
+        transform: rotate(0deg);   
+    }
+    25%
+    {
+        border-top: 10px solid #39888f;  
+    }
+    50%
+    {
+        border-left: 10px solid #39888f;
+    }
+    75%
+    {
+        border-bottom: 10px solid white;  
+    }
+    100%
+    {
+        border-top: 10px solid #39888f;
+        border-left: 10px solid #39888f;
+        border-bottom: 10px solid white;
+        border-right: 10px solid white;
+        transform: rotate(-360deg);
+    }
     
 }
 .cercle2 p
@@ -352,6 +446,27 @@ li
     align-content: center;
     margin-top: 40px;
 }
+/*retour en haut*/
+ #retour
+ {
+     
+     position: fixed;
+     left: 93%;
+     top: 92%;
+     scroll-behavior: smooth;
+     
+     
+ }
+ #retour a
+ {
+     color: #39888f;
+ }
+html
+ {
+    scroll-behavior: smooth;
+ }
+
+  
 /*telephone*/
 @media (max-width: 480px)
 {
