@@ -470,7 +470,11 @@ html
 /*telephone*/
 @media (max-width: 480px)
 {
-   
+   h1
+   {
+       font-size: 30px;
+
+   }
     .entreprise1
     {
          margin-top: 50px;
