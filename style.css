@@ -126,7 +126,6 @@ p
 
 .date
 {
-    background-color: none;
     margin-right: 2%;
     animation-name: glissement;
     animation-duration: 3s;
@@ -135,7 +134,7 @@ p
 @keyframes glissement {
 
     from{
-        background-color: none;
+        
         transform: scaleX(0);
     }
     to{
@@ -275,7 +274,6 @@ a :hover
 /*centre*/
 #centre img
 {
-    border-radius: none;
     width: 70%;
    position: absolute;
     margin-left: 12%;
