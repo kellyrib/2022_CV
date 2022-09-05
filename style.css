@@ -680,7 +680,7 @@ html
   {
       display: flex;
       flex-direction: column;
-      padding-top: 130%;
+      padding-top: 95%;
       width: 100%;
   }
   #hautdroit
@@ -720,7 +720,7 @@ html
   #hautcentre p
   {
       position: absolute;
-      top: 7%;
+      top: 15%;
       left: -5%;
   }
 
