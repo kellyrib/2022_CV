@@ -116,7 +116,7 @@ h2
 p
 {
     color: white;
-    text-align: justify;
+    text-align: center;
 }
 .poste
 {
@@ -130,7 +130,12 @@ p
     animation-name: glissement;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    width: 32%;
+    padding-left: 5%;
+    
 }
+
+
 @keyframes glissement {
 
     from{
@@ -305,6 +310,8 @@ a :hover
     margin-bottom: 5%;
     padding: 2%;
     box-shadow: white 5px 5px 15px 5px ;
+    margin-top: 40%;
+    
 }
 /*bas gauche*/
 #formation
